@@ -1,7 +1,16 @@
 {
+  "version": 2,
+  "buildCommand": "echo ok",
+  "outputDirectory": ".",
   "functions": {
     "api/consume.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs20.x"
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/api/consume",
+      "dest": "/api/consume.js"
+    }
+  ]
 }
