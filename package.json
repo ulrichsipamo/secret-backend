@@ -1,0 +1,10 @@
+{
+  "name": "secret-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "vercel-build": "echo hello"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.28.0"
+  }
+}
