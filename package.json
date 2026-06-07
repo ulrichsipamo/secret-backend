@@ -1,9 +1,7 @@
 {
   "name": "secret-backend",
   "version": "1.0.0",
-  "engines": {
-    "node": "20.x"
-  },
+  "type": "module",
   "scripts": {
     "vercel-build": "echo hello"
   },
